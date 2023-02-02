@@ -1,0 +1,48 @@
+@use 'sass:list';
+$weights: (
+	'Thin': 100,
+	'ExtraLight': 200,
+	'Light': 300,
+	'Regular': 400,
+	'Medium': 500,
+	'SemiBold': 600,
+	'Bold': 700,
+	'ExtraBold': 800,
+	'Black': 900,
+);
+$styles: (
+	'Italic': italic,
+	'': normal,
+);
+
+$fonts: ();
+// Specify the missing weight of your font
+$exclude-weights: (
+	// Cambon: (
+	// 	"Thin",
+	// ),
+);
+// Specify the missing style of your font
+$exclude-styles: (
+	// Cambon: ("Italic"), ////////////////////////////////////////////////
+);
+
+@each $font in $fonts {
+	@each $weight, $weightNumber in $weights {
+		@each $style, $styleVal in $styles {
+			@if (
+				(not list.index(map-get($exclude-weights, $font), $weight)) and
+					(not list.index(map-get($exclude-styles, $font), $style))
+			) {
+				@font-face {
+					font-family: $font;
+					src: url('../fonts/#{$font}/#{$font}-#{$weight}#{$style}.ttf')
+						format('truetype');
+					font-weight: $weightNumber;
+					font-stretch: $styleVal;
+					font-display: swap;
+				}
+			}
+		}
+	}
+}
