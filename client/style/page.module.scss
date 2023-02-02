@@ -78,6 +78,7 @@
 	align-items: center;
 	position: relative;
 	padding: 4rem 0;
+	gap: 1rem;
 }
 
 .center::before {
@@ -253,11 +254,6 @@
 @media (prefers-color-scheme: dark) {
 	.vercelLogo {
 		filter: invert(1);
-	}
-
-	.logo,
-	.thirteen img {
-		filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
 	}
 }
 
