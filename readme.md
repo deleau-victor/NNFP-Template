@@ -42,6 +42,7 @@
 First use this repository as template or use the following command to create a project with npx :
 
 ```bash
+# Doesn't work for this moment
 $ npx create-penn-app
 ```
 
