@@ -2,7 +2,7 @@
 
 > Simple fullstack template with PENN stack with NextJS and NestJS.
 
-<div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center">
+<div align="center" style="width: 100%; display: flex; justify-content: space-between; align-items: center, gap: 1rem;">
   <img src="https://www.deleauvictor.fr/images/icons/Database/PostgreSQL.svg" width="64px" height="64px"/>
   <img src="https://www.deleauvictor.fr/images/icons/Frameworks%20Back/express.svg" width="64px" height="64px"/>
   <img src="https://www.deleauvictor.fr/images/icons/Frameworks%20Front/nextjs.svg" width="64px" height="64px"/>
@@ -11,33 +11,30 @@
 
 ## Tools
 
-<div style="width: 100%; dipslay: flex; flex-direction: row;">
-
-<ul style="width: 45%;">
-<h3>FrontEnd</h3>
-<li><a href='https://www.typescriptlang.org/'>TypeScript</a></li>
-<li><a href='https://nextjs.org/'>NextJS</a></li>
-<li><a href='https://tailwindcss.com/'>TailwindCSS</a></li>
-<li><a href='https://sass-lang.com/'>SASS</a></li>
-<li><a href='https://postcss.org/'>PostCSS</a></li>
-<li><a href='https://redux-toolkit.js.org/'>Redux Toolkit</a></li>
-<li><a href='https://axios-http.com/'>Axios</a></li>
-<li><a href='https://react-hook-form.com/'>React Hook Form</a></li>
-<li><a href='https://github.com/fkhadra/react-toastify'>React Toastify</a></li>
-</ul>
-
-<ul style="width: 45%;">
-<h3>BackEnd</h3>
-<li><a href='https://expressjs.com/'>Express</a></li>
-<li><a href='https://nestjs.com/'>NestJS</a></li>
-<li><a href='https://github.com/nestjs/config'>NestJS Config</a></li>
-<li><a href='https://github.com/nestjs/typeorm'>NestJS TypeORM</a></li>
-<li><a href='https://github.com/nestjs/jwt'>NestJS JWT</a></li>
-<li><a href='https://github.com/nestjs/passport'>NestJS Passport</a></li>
-<li><a href='https://www.postgresql.org/'>PostgreSQL</a></li>
-<li><a href='https://www.npmjs.com/package/bcrypt'>Bcrypt</a></li>
-</ul>
-
+<div style="width: 100%; dipslay: flex;">
+  <ul style="width: 45%;">
+  <h3>FrontEnd</h3>
+    <li><a href='https://www.typescriptlang.org/'>TypeScript</a></li>
+    <li><a href='https://nextjs.org/'>NextJS</a></li>
+    <li><a href='https://tailwindcss.com/'>TailwindCSS</a></li>
+    <li><a href='https://sass-lang.com/'>SASS</a></li>
+    <li><a href='https://postcss.org/'>PostCSS</a></li>
+    <li><a href='https://redux-toolkit.js.org/'>Redux Toolkit</a></li>
+    <li><a href='https://axios-http.com/'>Axios</a></li>
+    <li><a href='https://react-hook-form.com/'>React Hook Form</a></li>
+    <li><a href='https://github.com/fkhadra/react-toastify'>React Toastify</a></li>
+  </ul>
+  <ul style="width: 45%;">
+  <h3>BackEnd</h3>
+    <li><a href='https://expressjs.com/'>Express</a></li>
+    <li><a href='https://nestjs.com/'>NestJS</a></li>
+    <li><a href='https://github.com/nestjs/config'>NestJS Config</a></li>
+    <li><a href='https://github.com/nestjs/typeorm'>NestJS TypeORM</a></li>
+    <li><a href='https://github.com/nestjs/jwt'>NestJS JWT</a></li>
+    <li><a href='https://github.com/nestjs/passport'>NestJS Passport</a></li>
+    <li><a href='https://www.postgresql.org/'>PostgreSQL</a></li>
+    <li><a href='https://www.npmjs.com/package/bcrypt'>Bcrypt</a></li>
+  </ul>
 </div>
 
 ## Installation
