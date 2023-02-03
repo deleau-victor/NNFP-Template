@@ -100,6 +100,8 @@ $ yarn build
 
 ### Other Commands
 
+#### Client
+
 ```bash
 $ yarn start        # launch development server
 $ yarn dev          # launch development server with hot refresh
