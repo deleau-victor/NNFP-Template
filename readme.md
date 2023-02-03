@@ -103,9 +103,9 @@ $ yarn build
 #### Client
 
 ```bash
-$ yarn start        # launch development server
-$ yarn dev          # launch development server with hot refresh
+$ yarn dev          # launch development server
 $ yarn build        # start the build of app
+$ yarn start        # launch development server for production environment
 $ yarn lint         # run eslint and fix eslint syntax error
 ```
 
